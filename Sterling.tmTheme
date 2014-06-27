@@ -5,7 +5,7 @@
 	<key>author</key>
 	<string>Sam Scherer</string>
 	<key>comment</key>
-	<string>Sterling Theme With Highlight</string>
+	<string>Sam</string>
 	<key>name</key>
 	<string>Sterling</string>
 	<key>settings</key>
@@ -29,22 +29,22 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Sam Scherer</string>
+			<string>SAM SCHERER</string>
 			<key>scope</key>
-			<string>meta.imakeinterfaces</string>
+			<string>meta.sam_scherer</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
 				<string>#FFFFFF</string>
 				<key>fontStyle</key>
-				<string>bold</string>
+				<string>italic</string>
 				<key>foreground</key>
 				<string>#000000</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>subtleGradient.com</string>
+			<string>github.com</string>
 			<key>scope</key>
 			<string>meta.subtlegradient</string>
 			<key>settings</key>
@@ -65,9 +65,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#803D0033</string>
+				<string>#1C5A4536</string>
 				<key>foreground</key>
-				<string>#FFFC80</string>
+				<string>#00C01B</string>
 			</dict>
 		</dict>
 		<dict>
@@ -124,9 +124,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#1A1A1A</string>
+				<string>#1C5A4536</string>
 				<key>foreground</key>
-				<string>#FFFC80</string>
+				<string>#00C01B</string>
 			</dict>
 		</dict>
 		<dict>
@@ -244,6 +244,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>~ Built-in constant</string>
+			<key>scope</key>
+			<string>constant.language, keyword.other.unit, constant.other.java, constant.other.unit</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#07FF00</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>~ Meta Assertion</string>
 			<key>scope</key>
 			<string>meta.assertion, meta.group.assertion keyword.control.group.regexp, meta.group.assertion punctuation.definition.group</string>
@@ -273,17 +284,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#86FF00</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>~ Built-in constant</string>
-			<key>scope</key>
-			<string>constant.language, keyword.other.unit, constant.other.java, constant.other.unit</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#07FF00</string>
 			</dict>
 		</dict>
 		<dict>
@@ -587,7 +587,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FF9D13</string>
+				<string>#179DFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -971,7 +971,7 @@ meta.brace.round</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#666666</string>
+				<string>#F9F9F9</string>
 			</dict>
 		</dict>
 		<dict>
@@ -982,7 +982,7 @@ meta.brace.round</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFFFFF4D</string>
+				<string>#F9FFD3F2</string>
 			</dict>
 		</dict>
 		<dict>
@@ -992,8 +992,10 @@ meta.brace.round</string>
 			<string>entity.other.attribute-name, meta.tag punctuation.definition.string</string>
 			<key>settings</key>
 			<dict>
+				<key>background</key>
+				<string>#461600F2</string>
 				<key>foreground</key>
-				<string>#FFFFFF33</string>
+				<string>#FFF3AE</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1004,7 +1006,7 @@ meta.brace.round</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFFFFF66</string>
+				<string>#FFFFFFE6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1021,7 +1023,7 @@ meta.brace.round</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#999999</string>
+				<string>#E6E6E6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1227,8 +1229,10 @@ meta.brace.round</string>
 			<string>text.html.markdown markup.list meta.paragraph</string>
 			<key>settings</key>
 			<dict>
+				<key>background</key>
+				<string>#1C5A4536</string>
 				<key>foreground</key>
-				<string>#555555</string>
+				<string>#00C01B</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1277,7 +1281,7 @@ meta.brace.round</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#666666</string>
+				<string>#CDCDCD</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1292,17 +1296,6 @@ source.css meta.scope.property-list meta.property-value punctuation.separator.ar
 				<string></string>
 				<key>foreground</key>
 				<string>#006680</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>§ Pseudo-Element</string>
-			<key>scope</key>
-			<string>entity.other.attribute-name.pseudo-element</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#FFA800</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1402,7 +1395,7 @@ source.css meta.scope.property-list meta.property-value punctuation.separator.ar
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#333333</string>
+				<string>#E0E0E0</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1415,7 +1408,7 @@ source.css meta.scope.property-list meta.property-value punctuation.separator.ar
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#999999</string>
+				<string>#AE9AAF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1550,7 +1543,7 @@ source.css meta.scope.property-list meta.property-value punctuation.separator.ar
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#666666</string>
+				<string>#FF0000</string>
 			</dict>
 		</dict>
 		<dict>
