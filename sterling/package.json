@@ -1,0 +1,22 @@
+{
+    "name": "sterling",
+    "displayName": "Sterling",
+    "description": "A dark theme intended to be used with transparent backgrounds.",
+    "version": "0.0.1",
+    "publisher": "imakeinterfaces",
+    "engines": {
+        "vscode": "^1.14.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Sterling",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Sterling-color-theme.json"
+            }
+        ]
+    }
+}
